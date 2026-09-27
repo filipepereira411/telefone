@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Contacto - Filipe Pereira</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .profile-card {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 450px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .profile-header {
+            text-align: center;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .profile-header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #1a1a1a;
+        }
+        .profile-header p {
+            margin: 5px 0 0 0;
+            color: #666;
+            font-size: 14px;
+        }
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .contact-item {
+            margin-bottom: 15px;
+        }
+        .contact-link {
+            display: flex;
+            align-items: center;
+            padding: 12px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: background 0.2s, transform 0.2s;
+            border: 1px solid #e0e0e0;
+        }
+        .contact-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        /* Cores Temáticas para os botões */
+        .whatsapp { border-left: 5px solid #25D366; }
+        .whatsapp:hover { background-color: #e8f9ee; }
+        
+        .email { border-left: 5px solid #0078d4; }
+        .email:hover { background-color: #e6f2fc; }
+        
+        .github { border-left: 5px solid #24292e; }
+        .github:hover { background-color: #f1f2f3; }
+        
+        .soundcloud { border-left: 5px solid #ff5500; }
+        .soundcloud:hover { background-color: #fff2eb; }
+
+        .youtube { border-left: 5px solid #ff0000; }
+        .youtube:hover { background-color: #ffeeeb; }
+
+        .label {
+            font-size: 12px;
+            color: #888;
+            display: block;
+            margin-bottom: 2px;
+        }
+        .value {
+            font-size: 15px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-card">
+    <div class="profile-header">
+        <h1>Filipe Pereira</h1>
+        <p>Pontével, Portugal</p>
+    </div>
+
+    <ul class="contact-list">
+        <!-- WhatsApp / Telemóvel -->
+        <li class="contact-item">
+            <a href="https://wa.me" target="_blank" class="contact-link whatsapp">
+                <div>
+                    <span class="label">WhatsApp / Telemóvel</span>
+                    <span class="value">+351 928 037 083</span>
+                </div>
+            </a>
+        </li>
+
+        <!-- E-mail Principal -->
+        <li class="contact-item">
+            <a href="mailto:filipepereira8708311@hotmail.com" class="contact-link email">
+                <div>
+                    <span class="label">E-mail Pessoal</span>
+                    <span class="value">filipepereira8708311@hotmail.com</span>
+                </div>
+            </a>
+        </li>
+
+        <!-- GitHub -->
+        <li class="contact-item">
+            <a href="https://github.com" target="_blank" class="contact-link github">
+                <div>
+                    <span class="label">GitHub</span>
+                    <span class="value">://github.com</span>
+                </div>
+            </a>
+        </li>
+
+        <!-- SoundCloud -->
+        <li class="contact-item">
+            <a href="https://soundcloud.com" target="_blank" class="contact-link soundcloud">
+                <div>
+                    <span class="label">SoundCloud</span>
+                    <span class="value">://soundcloud.com</span>
+                </div>
+            </a>
+        </li>
+
+        <!-- YouTube -->
+        <li class="contact-item">
+            <a href="https://youtube.com" target="_blank" class="contact-link youtube">
+                <div>
+                    <span class="label">YouTube</span>
+                    <span class="value">@AgentFOwca</span>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
